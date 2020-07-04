@@ -1,16 +1,22 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Donnees du patient{% endblock %}
+{% block title "Application react"%}
+
 {% block stylesheets %}
-<link href="https://bootswatch.com/4/simplex/bootstrap.min.css" rel="stylesheet">
+<link href="https://bootswatch.com/4/litera/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-{{ encore_entry_link_tags('app') }}
+
+{{encore_entry_link_tags('app')}}
 
 {% endblock %}
 {% block body %}
-<div id="app"></div>
+
+<div id="app"> </div>
+
+{% endblock %}
 
 {% block javascripts %}
-{{ encore_entry_script_tags('app') }}
-{% endblock %}
+
+{{encore_entry_script_tags('app')}}
+
 {% endblock %}

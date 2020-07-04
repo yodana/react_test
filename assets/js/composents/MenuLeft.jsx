@@ -20,12 +20,15 @@ const MenuLeft = () => {
     </ul>
     </div>
   <div className="" id="navbarColor02">
-    <ul className="navbar-nav ml-0 pl-0">
+    <ul className="navbar-nav">
       <li className="nav-item">
         <a className="nav-link" href="#">Relance </a>
       </li>
       <li className="nav-item">
         <a className="nav-link" href="#">Statistiques</a>
+      </li>
+      <li className="nav-item">
+        <a className="nav-link" href="#"></a>
       </li>
       <li className="nav-item">
         <a className="nav-link" href="#"></a>
