@@ -28,7 +28,7 @@ const Navbar = () => {
           </ul>
           <div className="dropdown">
             <button
-              className="btn btn-secondary dropdown-toggle"
+              className="btn btn-secondary btn-lg dropdown-toggle"
               type="button"
               data-toggle="dropdown"
             >

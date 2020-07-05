@@ -24,13 +24,16 @@ const App = () => {
     <>
       <IdendityContext.Provider value={{ user, setUser }}>
         <HashRouter>
+
           <Navbar></Navbar>
           <MenuLeft></MenuLeft>
+          <main className="container pt-5 pl-5">
           <Switch>
             <Route path="/idendity" component={IdendityPage}></Route>
             <Route path="/sexIdendity" component={SexPage}></Route>
             <Route path="/" component={HomePage}></Route>
           </Switch>
+          </main>
         </HashRouter>
       </IdendityContext.Provider>
     </>
