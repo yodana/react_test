@@ -6,42 +6,37 @@ const MenuLeft = () => {
   <div className=" mr-auto" id="navbarColor02" >
     <ul className="navbar-nav flex-column">
       <li className="nav-item active">
-        <button className="btn btn-secondary mt-2 active">
+        <button className="btn btn-secondary mt-2 active btn-block">
         <a className="nav-link" href="#">1ere visite </a>
         </button>
       </li>
       <li className="nav-item">
-      <button className="btn btn-secondary mt-2">
+      <button className="btn btn-secondary mt-2 btn-block">
         <a className="nav-link" href="#"> Adaptation</a>
         </button>
       </li>
       <li className="nav-item">
-      <button className="btn btn-secondary mt-2">
+      <button className="btn btn-secondary mt-2 btn-block">
         <a className="nav-link" href="#">Patients en social</a>
         </button>
       </li>
       <li className="nav-item">
-      <button className="btn btn-secondary mt-2">
+      <button className="btn btn-secondary mt-2 btn-block">
         <a className="nav-link" href="#">Patients appareillés</a>
         </button>
       </li>
     </ul>
     </div>
     <div className="mt-5" id="navbarColor02" >
-    <ul className="navbar-nav flex-column mt-5">
+    <ul className="navbar-nav flex-column mt-5 mr-auto">
       <li className="nav-item active">
-      <button className="btn btn-secondary mt-2">
-        <a className="nav-link" href="#">1ere visite </a>
+      <button className="btn btn-secondary mt-2 btn-block">
+        <a className="nav-link" href="#"> Relance </a>
         </button>
       </li>
       <li className="nav-item">
-      <button className="btn btn-secondary mt-2">
-        <a className="nav-link" href="#"> Adaptation</a>
-        </button>
-      </li>
-      <li className="nav-item">
-      <button className="btn btn-secondary mt-2">
-        <a className="nav-link" href="#">Patients en social</a>
+      <button className="btn btn-secondary mt-2 btn-block">
+        <a className="nav-link" href="#"> Statistiques</a>
         </button>
       </li>
 

@@ -17,7 +17,7 @@ const HomePage = ({ history }) => {
 
   return (
     <>
-      <div className="jumbotron text-center mt-5">
+      <div className="jumbotron text-center mt-5 ml-5">
         <h1>Quel est l'idendité du patient ?</h1>
         <form onSubmit={handleSubmit} className="form-check form-check-inline">
           <input

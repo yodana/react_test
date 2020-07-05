@@ -26,25 +26,10 @@ const Navbar = () => {
           <ul className="navbar-nav mr-auto">
             <li className="nav-item dropdown"></li>
           </ul>
-          <div className="dropdown">
-            <button
-              className="btn btn-secondary btn-lg dropdown-toggle"
-              type="button"
-              data-toggle="dropdown"
-            >
+          <div className="nav-item dropdown">
+          <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="true">
               Thomas
-            </button>
-            <div className="dropdown-menu">
-              <a className="dropdown-item" href="#">
-                Dompteurs
-              </a>
-              <a className="dropdown-item" href="#">
-                Zoos
-              </a>
-              <a className="dropdown-item" href="#">
-                Chasseurs
-              </a>
-            </div>
+            </a>
           </div>
         </div>
       </nav>
