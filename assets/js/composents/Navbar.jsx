@@ -1,5 +1,6 @@
 import React from "react";
 import Img from "../img/logo-medecin.jpg";
+import Dropdown from "react-bootstrap/Dropdown";
 
 const Navbar = () => {
   return (
@@ -22,16 +23,17 @@ const Navbar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         ></button>
-        <div className="collapse navbar-collapse" id="navbarColor03">
-          <ul className="navbar-nav mr-auto">
-            <li className="nav-item dropdown"></li>
-          </ul>
-          <div className="nav-item dropdown">
-          <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="true">
-              Thomas
-            </a>
-          </div>
-        </div>
+        <Dropdown title="dropdown" className="ml-auto">
+          <Dropdown.Toggle variant="success" id="dropdown-basic">
+            Thomas Dutronc
+          </Dropdown.Toggle>
+
+          <Dropdown.Menu>
+            <Dropdown.Item href="#">Mon profil</Dropdown.Item>
+            <Dropdown.Item href="#">Mes visites</Dropdown.Item>
+            <Dropdown.Item href="#">Deconnexion</Dropdown.Item>
+          </Dropdown.Menu>
+        </Dropdown>
       </nav>
     </>
   );

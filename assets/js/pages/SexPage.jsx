@@ -12,17 +12,23 @@ const SexPage = ({ history }) => {
 
   return (
     <>
-      <div className="jumbotron text-center">
+      <div className="jumbotron text-center ml-5 mt-5">
         <a href="#">
           <button className="btn btn-secondary fa fa-arrow-left"> </button>
         </a>
         <h1> Peut-tu indiquer son sexe ?</h1>
         <div className="mt-5 mb-2">
-          <button className="btn btn-secondary btn-lg mr-2" onClick={() => handleID(false)}>
+          <button
+            className="btn btn-secondary btn-lg mr-2"
+            onClick={() => handleID(false)}
+          >
             {" "}
             Homme{" "}
           </button>
-          <button className="btn btn-secondary btn-lg" onClick={() => handleID(true)}>
+          <button
+            className="btn btn-secondary btn-lg"
+            onClick={() => handleID(true)}
+          >
             {" "}
             Femme{" "}
           </button>
